@@ -1,0 +1,20 @@
+# Secrets — never commit these
+.env
+*.key
+*.pem
+
+# Runtime files
+*.log
+*.pid
+*.lock
+state.db*
+sessions/
+logs/
+cron/output/
+audio_cache/
+image_cache/
+cache/
+
+# OS files
+.DS_Store
+Thumbs.db
