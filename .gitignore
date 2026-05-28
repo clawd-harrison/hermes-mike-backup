@@ -2,6 +2,8 @@
 .env
 *.key
 *.pem
+claude-code-env
+*token*
 
 # Runtime files
 *.log
